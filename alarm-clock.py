@@ -1,5 +1,4 @@
-#importing the necessary libraries to form the ala
-# rm clock
+
 from tkinter import *
 import datetime
 import time
@@ -53,4 +52,3 @@ secTime = Entry(clock,textvariable = sec,bg = "pink",width = 15).place(x=200,y=3
 submit= Button(clock,text='Set Alarm', fg="red",width=10,command=actual_time).place(x=110,y=70)
 
 clock.mainloop()
-#Execution of the window
